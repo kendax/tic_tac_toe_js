@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game-title {
+    font-size: 100px;
+    color: burlywood;
+    margin: 15px auto;
+}
+
+.language-implementation {
+    font-size: 30px;
+    color: burlywood;
+    margin: 15px auto;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 310px;
+    margin: 15px auto;
+    background-color: brown;
+    color: rgb(4, 19, 49);
+}
+
+.cell {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px rgb(20, 132, 132);
+    border: 2px solid rgb(20, 132, 132);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game-status {
+    font-size: 50px;
+    margin: 25px auto;
+    color: tomato;
+}
+
+.game-restart {
+    background-color: rgb(251, 128, 5);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(4, 20, 24);
+    box-shadow: 2px 2px 2px 2px rgb(103, 1, 17);
+    border: 2px solid rgb(103, 1, 17);
+}
+
